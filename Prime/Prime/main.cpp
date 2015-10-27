@@ -23,8 +23,8 @@ void FilterPrime()
 int main()
 {
 	int num;
-	cin >> num;
 	FilterPrime();	
+	while(cin >> num){
 	int count = 0;
 	int i = 2;
 	for (; i < n;i++){
@@ -35,6 +35,7 @@ int main()
 			break;
 	}
 	cout << i << endl;
+	}
 	return 0;
 }
 //#include<iostream>
@@ -48,11 +49,11 @@ int main()
 //	{
 //		if (!isNotPrime[i])
 //			prime[num_prime++] = i;
-//		//¹Ø¼ü´¦1        
+//		//Â¹Ã˜Â¼Ã¼Â´Â¦1        
 //		for (long j = 0; j < num_prime && i * prime[j] < N; j++)
 //		{
 //			isNotPrime[i * prime[j]] = 1;
-//			if (!(i % prime[j]))  //¹Ø¼ü´¦2                  
+//			if (!(i % prime[j]))  //Â¹Ã˜Â¼Ã¼Â´Â¦2                  
 //				break;
 //		}
 //	}
