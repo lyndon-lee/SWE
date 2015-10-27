@@ -18,7 +18,7 @@ int main()
 	//	opChar2[i] = digitnum + 48;
 	//}
 	char opr;
-	cin >> opr >> opChar1 >> opChar2;
+	while (cin >> opr >> opChar1 >> opChar2){
 		HugeInt op1(opChar1);
 		HugeInt op2(opChar2);
 		HugeInt result;
@@ -38,5 +38,6 @@ int main()
 			cout << "default";
 			break;
 		}
+	}
 } // end main
 

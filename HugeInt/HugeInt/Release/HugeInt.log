@@ -1,0 +1,22 @@
+﻿Build started 10/27/2015 10:42:56 AM.
+     1>Project "C:\Users\v-yandli\Desktop\ASE\homework\Individal\HugeInt\HugeInt\HugeInt.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib main.cpp Hugeint.cpp
+         main.cpp
+         Hugeint.cpp
+     1>Hugeint.cpp(98): warning C4018: '<' : signed/unsigned mismatch
+     1>Hugeint.cpp(152): warning C4172: returning address of local variable or temporary
+     1>Hugeint.cpp(381): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\v-yandli\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\v-yandli\Desktop\ASE\homework\Individal\HugeInt\Release\HugeInt.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\v-yandli\Desktop\ASE\homework\Individal\HugeInt\Release\HugeInt.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\Hugeint.obj
+         "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         HugeInt.vcxproj -> C:\Users\v-yandli\Desktop\ASE\homework\Individal\HugeInt\Release\HugeInt.exe
+     1>Done Building Project "C:\Users\v-yandli\Desktop\ASE\homework\Individal\HugeInt\HugeInt\HugeInt.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.07

@@ -26,7 +26,7 @@ int main()
 	cin >> num;
 	FilterPrime();	
 	int count = 0;
-	int i = 0;
+	int i = 2;
 	for (; i < n;i++){
 		if (isPrimes[i]){
 			count++;
@@ -34,7 +34,7 @@ int main()
 		if (count == num)
 			break;
 	}
-	cout << count << endl;
+	cout << i << endl;
 	return 0;
 }
 //#include<iostream>
