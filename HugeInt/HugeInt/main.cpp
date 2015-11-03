@@ -2,9 +2,9 @@
 // HugeInt test program.
 #include <iostream>
 #include "Hugeint.h"
-#define N 10000000
+
 using namespace std;
-char opChar1[N / 2], opChar2[N / 2];
+//char opChar1[N / 2], opChar2[N / 2];
 
 int main()
 {
@@ -18,6 +18,7 @@ int main()
 	//	opChar2[i] = digitnum + 48;
 	//}
 	char opr;
+	string opChar1, opChar2;
 	while (cin >> opr >> opChar1 >> opChar2){
 		HugeInt op1(opChar1);
 		HugeInt op2(opChar2);
